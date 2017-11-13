@@ -28,7 +28,6 @@ func main() {
 	log.SetFlags(0)
 
 	if len(os.Args) != 2 {
-		log.Println("missing operation argument.")
 		log.Fatalf("Usage: %s <operation>", os.Args[0])
 	}
 
